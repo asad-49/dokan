@@ -1,10 +1,14 @@
 import React from 'react'
 import Hero from '../Components/Hero/Hero'
+import Popular from '../Components/populer/Popular'
+import Offer from '../Components/Offers/Offer'
 const Shop = () => {
   return (
     <div>
-      <h1>ttt</h1>
+    
     <Hero/>
+     <Popular/>
+     <Offer/>
     </div>
   )
 }

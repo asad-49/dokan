@@ -2,10 +2,11 @@ import React from 'react'
 import hand_icon from '../Assets/hand_icon.png'
 import arrow from '../Assets/arrow.png'
 import hi from '../Assets/hero_image.png'
+import './Hero.css'
 const hero = () => {
   return (
     <div className='hero'>
-      <div className="l"></div>
+    <div className="l">   
       <h2>NEW ARRAIVALS ONLY</h2>
       <div>
         <div className='in'>
@@ -18,6 +19,7 @@ const hero = () => {
       <div className="btn">
            <div>Latest Collection</div>
            <img src={arrow} alt=""/>
+      </div>
       </div>
       <div className="r">
         <img src={hi} alt=""/>
